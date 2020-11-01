@@ -1,0 +1,79 @@
+
+ html { 
+    background: url(d.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  body{
+      font-size: 18px;
+      color: rgb(0, 36, 6);
+      bol
+  }
+h1{
+    font-size: 260px;
+    
+    color: aqua;
+    font-family: "fixed";
+}
+
+}
+
+b{
+
+    color:rebeccapurple;
+    font-style: italic;
+}
+
+p{
+    font-size: 28px;
+    background-color: rgb(49, 218, 161);
+ height: 150px;
+  border: 2.5px solid  rgb(49, 218, 161);
+  padding: 0px;
+  margin: 0px;
+ 
+}
+
+input{
+    font-size: 50px;
+    padding: 12px 20px;
+    
+  border: 2px solid rgb(14, 107, 71);
+  border-radius: 40px;
+  background-color: #d3c3c3;
+    
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+  }                       
+  
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgb(36, 136, 175);
+    color: rgb(59, 54, 54);
+    font-size: 15px;
+    text-align: center;
+    
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+
+  .tooltip:hover .tooltiptext{
+      visibility: visible;
+  }
